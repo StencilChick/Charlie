@@ -1,0 +1,5 @@
+img:dungeongoblin
+speed:5
+health:5
+mana:5
+size:32:32

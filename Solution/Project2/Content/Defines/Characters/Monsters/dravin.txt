@@ -1,0 +1,8 @@
+img:boss
+speed:2
+health:100
+mana:5
+size:32:32
+projectile:projectile_redMagic:down:5:1:false
+projectile:projectile_redMagic:left:5:1:false
+projectile:projectile_redMagic:right:5:1:false

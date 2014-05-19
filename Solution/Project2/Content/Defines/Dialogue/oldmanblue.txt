@@ -1,0 +1,20 @@
+# set name colours and whatnot
+Sierra:colour:128 128 255
+Wise Old Man:colour:47 33 138
+
+# say these things instead if having already had this conversation
+if:oldmantalked=f:oldmanpost
+oldmanpost
+	Wise Old Man:Hmm... 
+	/end
+# Main Dialogue 
+Wise Old Man:Hmm...
+Sierra:? 
+Wise Old Man:I sense a great power emanating from you... 
+Wise Old Man:It's a good thing too because you're going to need it.
+Sierra:Why is that? 
+Wise Old Man:Because you're about to embark on a dangerous journey. If you keep your wits about you and your will is strong, you might just make it back. 
+Wise Old Man:Good Luck! 
+Sierra:Erm... Thanks. 
+set:oldmantalked:f
+/end 

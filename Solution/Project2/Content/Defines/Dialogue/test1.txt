@@ -1,0 +1,15 @@
+# set name colours
+Sierra:colour:128 128 255
+Not Sierra:colour:255 128 128
+
+# begin ze dialouge!
+Not Sierra:I'm not actually you.  I just look like you because there aren't any other sprites yet.
+
+Sierra:Well, that's confusing!
+
+Not Sierra:Tell me about it.  I'm supposed to be some sort of peasant bloke and here I am looking like a red-headed heroine.
+Not Sierra:You wouldn't believe the kind of existential baggage that gives you.
+
+Sierra:I'll take your word for it.
+
+/end

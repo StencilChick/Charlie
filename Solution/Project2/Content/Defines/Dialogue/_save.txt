@@ -1,0 +1,11 @@
+Save Point:Game Saved!
+Save Point:Do you want to return to the main menu?
+
+choice:no:No, I want to continue the game.
+choice:yes:Yes, return to the main menu.
+Sierra:...
+
+yes
+	/menu
+
+/end

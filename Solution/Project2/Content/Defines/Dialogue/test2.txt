@@ -1,0 +1,16 @@
+# set colours
+Sierra:colour:128 128 255
+Peasant:colour:256 128 128
+
+# do this dialouge if having already had this conversation
+if:grumpyPeasantConvo=y:git
+git
+	Peasant:Oi!  I thought I told you to git!
+	/end
+
+# main dialogue
+Peasant:Oi!  You!  Git off me lawn!
+Sierra:What?  You barely even have a lawn!
+Peasant:Well, git off it anyway!
+set:grumpyPeasantConvo:y
+/end

@@ -1,0 +1,36 @@
+# set name colours and whatnot
+Sierra:colour:128 128 255
+Julie:colour:245 37 227
+
+# do this dialouge if having already had this conversation
+if:jut=y:postjulie
+postjulie
+
+	Julie:I hope you like that toy!
+	/end	
+	
+	
+Julie:Hi! I'm Julie. 
+Julie:You're pretty!
+Sierra:Thanks! So are you!
+Julie:Hey do you know that girl Summer? Are you friends with her?
+
+# choices 
+choice:positive:Yes.
+choice:negative:No.
+Sierra:...
+
+positive
+	Julie:Oh.... 
+	Julie:I don't like her very much... 
+	Julie:I've got to go. Bye! 
+	/end
+	
+negative
+	Julie:Good! She's dumb! 
+	Julie:That's why I took this from her!
+	Julie:This toy isn't as fun as I thought it'd be. 
+	Julie:Here, you take it.
+	set:jut:y
+	additem:Bow:1
+	/end

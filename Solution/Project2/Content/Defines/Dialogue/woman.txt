@@ -1,0 +1,18 @@
+# set name colours and whatnot
+Sierra:colour:128 128 255
+Selena:colour:53 48 145
+
+# do this dialouge if having already had this conversation
+if:alreadytalked1=y:postconvo1
+postconvo1
+	Selena:Keep doing what you're doing!
+	Sierra:I'll try!
+	/end
+
+# ze main dialogue!
+Selena:Wow... Look at you...
+Sierra:Hmmm?
+Selena:You look so empowered! 
+Selena:In times of despair like these, we need people like you. Someone to look up to... 
+set:alreadytalked1:y
+/end

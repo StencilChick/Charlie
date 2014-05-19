@@ -1,0 +1,4 @@
+#Set color
+Sign:colour:87 87 87
+
+Sign:WARNING. This is the point of no return. There is no turning back past this point. 

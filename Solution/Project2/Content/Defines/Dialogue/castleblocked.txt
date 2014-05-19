@@ -1,0 +1,15 @@
+# set name colours and whatnot
+Sierra:colour:128 128 255
+Steve:colour:145 255 198
+
+# do this dialouge if having already had this conversation
+if:postCB=y:aftertalk
+aftertalk
+	Steve:Hmm... There has to be another way in...
+	/end
+
+# ze main dialogue!
+Steve:The entrance to the Prince's castle is being blocked by this boulder.
+Steve:It seems to have moved by magic or something!
+set:postCB:y
+/end

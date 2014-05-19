@@ -1,0 +1,34 @@
+# set name colours and whatnot
+Sierra:colour:128 128 255
+Mysterious Old Man:colour:255 0 0
+
+# do this dialouge if having already had this conversation
+if:postRed=y:redaftertalk
+redaftertalk
+	Mysterious Old Man:Dravin's so cool!
+	/end
+
+# Main
+Mysterious Old Man:Greetings Traveller! 
+Mysterious Old Man:Do you follow in the footsteps of Lord Dravin?
+
+# choices 
+choice:positive:Yes.
+choice:negative:No.
+Sierra:uhh...
+
+# positive choice
+positive
+	Mysterious Old Man:Great news! Be of good spirits sister!
+	Mysterious Old Man:Take this and be on your way. Good luck in your travels!
+	additem:manainc:1
+	set:postRed:y
+	
+# negative choice	
+negative
+	Mysterious Old Man:Infidel! Return from whence you came!
+	Mysterious Old Man:ShalaKazam!!!
+	set:postRed:y
+	transition:Spawn Map:0 0:10 3
+	
+/end

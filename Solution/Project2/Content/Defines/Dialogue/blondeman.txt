@@ -1,0 +1,7 @@
+# set name colours and whatnot
+Sierra:colour:128 128 255
+Jared:colour:216 237 237 
+
+# ze main dialogue!
+Jared:Where is the prince!?
+/end

@@ -1,0 +1,8 @@
+type:weapon
+name:Adanced Bow
+img:advbow
+desc:A bow carved of the finest wood. Arrows fly with extreme speed.
+atk:0
+range:0
+anim:ranged
+projectile:projectile_arrow:down:40:5:true

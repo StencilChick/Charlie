@@ -1,0 +1,7 @@
+type:weapon
+name:Advanced Sword
+img:advsword
+desc:The mightiest sword!
+atk:4
+range:16
+anim:melee

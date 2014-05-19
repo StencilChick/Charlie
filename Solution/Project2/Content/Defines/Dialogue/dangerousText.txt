@@ -1,0 +1,18 @@
+# set colours
+Sierra:colour:0 0 128
+Old Man:colour:0 255 0
+
+# if this conversation has already been had
+if:dangerConvo=true:HadConvo
+HadConvo
+	Old Man:I already gave you a sword!  Go away!
+	/end
+	
+# main conversation
+Old Man:It's dangerous to go alone.  Take this.
+additem:testSword:1
+
+Sierra:A sword?  Cool.
+
+Old Man:Now this isn't a charity so that's all you get!  Go away!
+/end

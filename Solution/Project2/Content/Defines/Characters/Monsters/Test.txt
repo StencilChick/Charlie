@@ -1,0 +1,5 @@
+img:hero
+speed:2.5
+health:3
+mana:4
+size:32:32

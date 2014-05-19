@@ -1,0 +1,9 @@
+type:weapon
+name:Inferno Blast
+img:redbook
+desc:An advanced spell that slowly shoots a wave fire. 
+atk:0
+range:0
+cost:3
+anim:magic
+projectile:projectile_redMagic:down:2:25:true

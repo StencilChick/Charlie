@@ -1,0 +1,5 @@
+img:desertgoblin
+speed:2
+health:7
+mana:5
+size:32:32

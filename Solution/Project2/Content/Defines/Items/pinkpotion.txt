@@ -1,0 +1,6 @@
+type:potion
+name:Super Health Potion
+img:pinkPotion
+desc:A very gelatinous concotion that restores a large amount of health. 
+cat:health
+value:10

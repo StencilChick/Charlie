@@ -1,0 +1,5 @@
+img:goblin2
+speed:4
+health:4
+mana:4
+size:32:32

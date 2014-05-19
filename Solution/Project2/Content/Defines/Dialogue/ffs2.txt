@@ -1,0 +1,5 @@
+#Set color
+Sign:colour:87 87 87
+
+Sign:ATTENTION TRAVELERS. Magic force fields up ahead! 
+Sign:Invisible walls may block your path!  

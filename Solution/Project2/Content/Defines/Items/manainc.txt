@@ -1,0 +1,6 @@
+type:potion
+name:Radient Droplet
+img:manacrystal
+desc:A chunk of frozen water from a magical wellspring shaped in the form of a rain drop.  Consuming these increases magical capacity.
+cat:manaincrease
+value:1

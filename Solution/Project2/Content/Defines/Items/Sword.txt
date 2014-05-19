@@ -1,0 +1,7 @@
+type:weapon
+name:Sword
+img:sword
+desc:Your father's mighty sword!
+atk:2
+range:16
+anim:melee

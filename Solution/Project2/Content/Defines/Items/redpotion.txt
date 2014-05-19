@@ -1,0 +1,6 @@
+type:potion
+name:Health Potion
+img:redPotion
+desc:Some form of red liquid stirred up by some witch in the middle of a forest somewhere no doubt.  It doesn't exactly look sanitary, but it should restore some of your health regardless.
+cat:health
+value:2

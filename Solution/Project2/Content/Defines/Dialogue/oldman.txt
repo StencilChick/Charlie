@@ -1,0 +1,9 @@
+# set name colours
+Sierra:colour:128 128 255
+Old Arthur:colour:115 184 189
+
+# Begin Dialogue 
+Old Arthur:What a beautiful day today! 
+Old Arthur:Too bad the Prince won't come out and enjoy it with us... I wonder if he's lonely up there...
+
+/end

@@ -1,0 +1,8 @@
+type:weapon
+name:Advanced Magic Blast
+img:purplebook
+desc:An advanced spell that shoots a burst of magic energy. 
+atk:0
+range:0
+anim:magic
+projectile:projectile_purpleMagic:down:8:3:true

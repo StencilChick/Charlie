@@ -1,0 +1,35 @@
+# set name colours and whatnot
+Sierra:colour:128 128 255
+Looney Old Lady:colour:86 105 115
+
+# do this dialogue after talking
+if:postLOL=y:lolaftertalk
+lolaftertalk
+	Looney Old Lady:*Grumbles gibberish*
+	/end
+
+# Main
+Looney Old Lady:Hmm...
+Sierra:Yes?
+Looney Old Lady:You seem like a willing pupil. Would you like to learn some magic?
+
+# choices 
+choice:positive:Yes.
+choice:negative:No.
+Sierra:...
+
+# positive choice
+positive
+	Looney Old Lady:Read this and you'll get a basic understanding. 
+	Looney Old Lady:Good luck!
+	additem:spell1:1
+	set:postLOL:y
+	/end
+	
+# negative choice	
+negative
+	Looney Old Lady:Suit yourself. 
+	set:postLOL:y
+	/end
+	
+/end

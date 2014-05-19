@@ -1,0 +1,6 @@
+type:potion
+name:Scarlet Crystal
+img:heartcrystal
+desc:A brilliant red crystal in the shape of a heart.  Consuming these increases maximum health.
+cat:healthincrease
+value:1

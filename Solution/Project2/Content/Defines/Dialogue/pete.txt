@@ -1,0 +1,10 @@
+# set name colours and whatnot
+Sierra:colour:128 128 255
+Pete:colour:249 143 56
+
+# ze main dialogue!
+Pete:You use these wells to save your game. 
+Sierra:Cool, thanks!
+Pete:Whoop!
+Pete:I love this music by the way. I wonder what genius came up with that? 
+/end
