@@ -1,0 +1,15 @@
+# turn off the ui
+drawui:false
+
+# the text
+NARRATOR:In the beginning there was a Great War between the 9 realms of the old world. Each race battled vigorously to rule over the sacred land of Alfmeir. After countless deaths, King Henry the first and what remained of his band of loyal knights finally won the last battle. Henry's descendants have ruled for four centuries providing peace and prosperity.
+NARRATOR:In recent years a growing amount of darkness and descent has begun to sweep the kingdom. Prince Charles is Henry's most current descendant and has had trouble dealing with his subjects despite being very personable. His guards have barely held back the rioting but they would surely revolt if they were made aware of his mysterious disappearance.
+NARRATOR:Rumors circulate from town to town saying he has been kidnapped by an evil necromancer known as Dravin.
+
+# turn the ui back on
+drawui:true
+
+# go to the thing
+transition:Spawn Map:0 0:10 6
+
+/end

@@ -1,0 +1,26 @@
+#Set color
+Sierra:colour:128 128 255
+Drawer:colour:87 87 87
+
+if:pdrawer=y:postdrawer
+postdrawer
+	Drawer:The drawer is empty...
+	/end
+
+Drawer:You find a mighty sword! Take sword?
+
+choice:positive:Take.
+choice:negative:Leave.
+Sierra:...
+
+# positive choice
+positive
+	additem:Sword:1
+	set:pdrawer:y
+	/end
+
+# negative choice	
+negative
+	/end
+
+/end 

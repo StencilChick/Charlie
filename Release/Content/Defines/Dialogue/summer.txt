@@ -1,0 +1,42 @@
+# set name colours and whatnot
+Sierra:colour:128 128 255
+Summer:colour:245 37 227
+
+# do this dialouge if having already had this conversation
+if:summertalked=y:summerafter
+summerafter
+	Summer:La La La...
+	/end
+	
+
+Summer:Hi! My name's Summer!
+Summer:I like your hair!
+Sierra:Thanks Summer. It's nice to meet you.
+Summer:Hey do you know that girl Julie? Are you friends with her?
+
+# choices 
+choice:positive:Yes.
+choice:negative:No.
+Sierra:...
+
+positive
+	Summer:Oh... Okay. 
+	Summer:I can't stand her!
+	Summer:Bye! 
+	set:summertalked1:y
+	set:hascandy:false
+	/end
+	
+negative
+	Summer:Good! She's stupid! 
+	Summer:That's why I stole her candy! 
+	Summer:She took too long, now her candy's gone. 
+	Summer:Bagow!
+	Summer:Here, you can have it.
+	additem:candy:1
+	set:summertalked:y
+	set:hascandy:true
+	/end
+
+/end
+	

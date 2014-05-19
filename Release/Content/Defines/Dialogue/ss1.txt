@@ -1,0 +1,5 @@
+#Set color
+Sign:colour:87 87 87
+
+Sign:Note to travellers 
+Sign:Snow Goblins spotted in this area! They are know to be extremely fast! Be careful!

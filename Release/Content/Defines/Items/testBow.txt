@@ -1,0 +1,8 @@
+type:weapon
+name:Bow
+img:bow
+desc:Wouldn't be a proper RPG without one of these.
+atk:0
+range:0
+anim:ranged
+projectile:projectile_arrow:down:5:1:true

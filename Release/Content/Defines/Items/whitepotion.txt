@@ -1,0 +1,6 @@
+type:potion
+name:Ultimate Mana 
+img:whitePotion
+desc:A sweet tasting elixir that restores a very large quantity of mana.  
+cat:mana
+value:100

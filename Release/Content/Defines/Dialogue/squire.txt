@@ -1,0 +1,18 @@
+# set name colours and whatnot
+Sierra:colour:128 128 255
+Charlie's Squire:colour:0 255 30
+
+# do this dialouge if having already had this conversation
+if:alreadytalkedsquire=y:postconvo
+postconvo
+	Charlie's Squire:Best of Luck!
+	/end
+
+# ze main dialogue!
+Charlie's Squire:You! You must help!
+Charlie's Squire:The prince is being held hostage and Dravin has taken over the castle!
+Charlie's Squire:You're our only hope of saving Alfmeir!
+Sierra:Don't worry. I'm ready to fight!
+Charlie's Squire:Good Luck! You're going to need it... 
+set:alreadytalkedsquire:y
+/end

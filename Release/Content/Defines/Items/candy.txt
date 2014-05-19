@@ -1,0 +1,6 @@
+type:potion
+name:Candy
+img:candy
+desc:A delicious treat! Restores some health when eaten. 
+cat:health
+value:6

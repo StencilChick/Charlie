@@ -1,0 +1,2 @@
+Save Point:You can't save a game from the editor.  Silly.
+/end

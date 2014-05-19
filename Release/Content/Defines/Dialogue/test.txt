@@ -1,0 +1,44 @@
+# set name colours and whatnot
+Sierra:colour:128 128 255
+Not Sierra:colour:255 128 128
+
+# say these things instead if having already had this conversation
+if:testConvoPath=pos:pos
+pos
+	Not Sierra:Look, I'll give the programmer some credit when she gives me something more interesting to do than look at this bleedin' rock.  Now go away!
+	/end
+
+if:testConvoPath=neg:neg
+neg
+	Not Sierra:It's nice that you agree with me and all, but, seriously, I'm done talking to you.  Now go away!
+	/end
+
+
+# ze main dialogue!
+Not Sierra:Oh, hai there.  I was just looking at this rock.
+Not Sierra:It's a very nice rock.
+Not Sierra:Actually, I don't give a single orphaned fig about this rock. It's just the lazy programmer-lady Gwen who made this can't be arsed to think up better testing dialogue.
+Not Sierra:Curse you, lazy programmer-lady Gwen who made this!
+# Lazy Programmer-Lady Gwen sounds like some Pokemon trainer version of me. >_>
+
+# ze choices!
+choice:positive:Come on, give her some credit.
+choice:negative:You're right, she's so lazy!
+Sierra:...
+
+# positive choice
+positive
+	Sierra:I mean, it's not like coming up with decent content is part of her job.  She's just the programmer.
+	Not Sierra:Bleh, fine!  You win this round, Lazy Programmer-Lady Gwen who made this!
+	Sierra:... That doesn't exactly sound like giving her much credit.
+	Not Sierra:Oh my god, you act like I care!
+	
+	set:testConvoPath:pos
+
+# negative choice	
+negative
+	Not Sierra:Exactly!  We're probably lucky she even wrote a dialogue file test out her script with at all!
+	
+	set:testConvoPath:neg
+
+/end

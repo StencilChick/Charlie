@@ -1,0 +1,7 @@
+img:monster_fish
+speed:2
+health:15
+mana:5
+size:32:32
+moving:false
+projectile:projectile_blueMagic:down:5:1:false

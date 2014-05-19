@@ -1,0 +1,9 @@
+type:weapon
+name:Shock Magic Blast
+img:yellowbook
+desc:An advanced spell that shoots a burst of shocking magic very quickly. 
+atk:0
+range:0
+cost:2
+anim:magic
+projectile:projectile_yellowMagic:down:20:5:false

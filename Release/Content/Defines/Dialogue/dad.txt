@@ -1,0 +1,33 @@
+# set name colours and whatnot
+Sierra:colour:128 128 255
+Dad:colour:128 255 128
+
+# do this dialouge if having already had this conversation
+if:postDad=y:dadaftertalk
+dadaftertalk
+	Dad:Hmm... Where could it be...
+	/end
+
+# ze main dialogue!
+Dad:Hi Sweetie!
+Dad:Have you seen my sword?
+
+# ze choices!
+choice:positive:Yes.
+choice:negative:No.
+Sierra:...
+
+# positive choice
+positive
+	Sierra:Didn't you drop it off at the blacksmith?
+	Dad:I picked it up last week! Now if only I could find it... 
+	set:postDad:y
+	/end
+
+# negative choice	
+negative
+	Dad:Hmm.. It's got to be around here somewhere... 
+	set:postDad:y
+	/end
+
+/end

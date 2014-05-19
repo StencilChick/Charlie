@@ -1,0 +1,6 @@
+# set name colours and whatnot
+Sierra:colour:128 128 255
+Agatha:colour:161 109 156
+
+Agatha: I can't remember the last time I was this upset... It's too bad Prince Charles won't leave the castle. His smile always made my day. 
+\end

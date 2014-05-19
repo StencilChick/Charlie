@@ -1,0 +1,9 @@
+type:weapon
+name:Environmental Blast
+img:greenbook
+desc:An advanced spell that shoots a flurry of grass and magic energy. 
+atk:0
+range:0
+cost:2
+anim:magic
+projectile:projectile_greenMagic:down:15:7:true

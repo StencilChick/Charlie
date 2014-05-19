@@ -1,0 +1,19 @@
+# set name colours and whatnot
+Sierra:colour:128 128 255
+Charlie:colour:183 255 0
+Epilogue:colour:87 87 87 
+
+# ze main dialogue!
+Charlie:What was all that Ruckus? Is Dravin no more?! Who are you!?
+Sierra:You won't have to worry about him anymore. A 'thank you for rescuing me' would be nice before you start interrogating me.
+Charlie:1000 apologies my lady. Thank you ever so much for saving me. 
+Sierra:That's more like it. 
+Charlie:Thanks to you I can now go back to ruling the kingdom and restore prosperity to the land. 
+Charlie:All of Alfmeir is in your debt. Anything you desire I will make yours. 
+Sierra:How about a date? We can stroll through the town together. The people would really like to see you. 
+Charlie:I would love that! 
+
+drawui:false
+NARRATOR:Charlie and Sierra went on to rule Alfmeir together as King and Queen for the rest of their days. 
+drawui:true
+/credits

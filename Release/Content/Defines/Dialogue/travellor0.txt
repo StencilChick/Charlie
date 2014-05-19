@@ -1,0 +1,23 @@
+# set name colours and whatnot
+Sierra:colour:128 128 255
+Travellor:colour:128 255 128
+
+
+# ze main dialogue!
+Travellor:I can take you to the snowy area in this demo.  Would you like to go?
+
+# ze choices!
+choice:positive:Sure.  Snow seems like fun.
+choice:negative:No, snow is cold!
+Sierra:...
+
+# positive choice
+positive
+	Travellor:Alright, then!  Let's get going!
+	transition:demoSnow:0 0:9 9
+
+# negative choice	
+negative
+	Travellor:Okay, maybe some other time.
+
+/end

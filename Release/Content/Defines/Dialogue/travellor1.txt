@@ -1,0 +1,23 @@
+# set name colours and whatnot
+Sierra:colour:128 128 255
+Travellor:colour:128 255 128
+
+
+# ze main dialogue!
+Travellor:Would you like to go back to the forest now?
+
+# ze choices!
+choice:positive:Yes.
+choice:negative:No.
+Sierra:...
+
+# positive choice
+positive
+	Travellor:Let's go then!
+	transition:demoForest:0 0:9 5
+
+# negative choice	
+negative
+	Travellor:Alright, take you time.
+
+/end

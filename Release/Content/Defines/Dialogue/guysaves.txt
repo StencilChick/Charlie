@@ -1,0 +1,16 @@
+# set name colours and whatnot
+Sierra:colour:128 128 255
+Jim:colour:142 237 193
+
+# do this dialouge if having already had this conversation
+if:jimat=y:postjim
+postjim
+	Jim:*sigh*
+	/end
+
+# ze main dialogue!
+Jim:I'm so stressed out about everything!
+Jim:My wife and kids are giving me nothing but trouble!
+Jim:If only there was some charismatic ruler around to put my mind at ease... *sigh*
+set:jimat:y
+/end

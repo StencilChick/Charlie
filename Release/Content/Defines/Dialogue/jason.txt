@@ -1,0 +1,18 @@
+# set name colours and whatnot
+Sierra:colour:128 128 255
+Jason:colour:250 240 197
+
+# say these things instead if having already had this conversation
+if:jat=y:postj
+postj
+	Jason:Can we talk later? I have to get ready for work...
+	/end
+	
+# Main dialog
+Jason:Thanks for getting rid of those guys. They're always bothering me. 
+Jason:They almost made me late for my job in the deep forest!
+Jason:Here. Take this for your trouble. 
+Jason:Wish I didn't have to go to work...
+set:jat:y
+additem:advsword:1
+/end

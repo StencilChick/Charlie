@@ -1,0 +1,5 @@
+img:monster_fish
+speed:2.5
+health:2
+mana:4
+size:32:32

@@ -1,0 +1,6 @@
+type:potion
+name:Candy
+img:candy1
+desc:A delicious treat!
+cat:health
+value:6

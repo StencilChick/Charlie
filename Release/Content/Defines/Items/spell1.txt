@@ -1,0 +1,9 @@
+type:weapon
+name:Magic Blast
+img:book
+desc:A basic spell that shoots a burst of magic energy. 
+atk:0
+range:0
+cost:1
+anim:magic
+projectile:projectile_blueMagic:down:6:2:true
